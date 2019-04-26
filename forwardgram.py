@@ -1,5 +1,5 @@
 from telethon import TelegramClient, events, sync
-from telethon.tl.types import InputChannel, OutputChannel
+from telethon.tl.types import InputChannel
 import yaml
 import sys
 import logging
