@@ -1,5 +1,5 @@
 api_id: '814511' # This has to be an integer.
-api_hash: 'abcdefg' # Long 32 characters hash identifier.
+api_hash: '44462f0f278503255d5cc30941b617a9' # Long 32 characters hash identifier.
 session_name: 'forwardgram' # Session name.
 
 # The channel names that you'd like to forward messages from.
