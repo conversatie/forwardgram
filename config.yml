@@ -1,13 +1,13 @@
-api_id: '814511' # This has to be an integer.
-api_hash: '44462f0f278503255d5cc30941b617a9' # Long 32 characters hash identifier.
+api_id: '6667465' # This has to be an integer.
+api_hash: 'BACdYvwjPp1LNXjlOV2nZStxrzZkbx3HfqxM4y-stGrrQbNUuqyHRrQjNSc0BFwiSCcl7X4AVUCZ5ZRTcStTIhtp4zg6Z9S_f4TgzAs835TsYFR_-3wULWQ8SSkIs5xrwKCI5HY3isYP2187tuGNWH1gXR6UDZ5HN3I_mE1qmp6JFtAS0HkptD_E3eNcXD4o9UYxUFxwxk7aaH205BMVdd7Xlg3oHDDtFrMKXSG8H5eQKMjqn3BG7j74P5eDRoPQMnm2rT1g1jy9kcUM3qpalBadROLqjZ5y9MjlZ5iasFhXIg9qhtjFnbNQi1amUiiN5XhErFW60ic_xAS1qTdRF7GdR-blRAA' # Long 32 characters hash identifier.
 session_name: 'forwardgram' # Session name.
 
-# The channel names that you'd like to forward messages from.
-# The user running the client must have these channels present on it's dialogs.
-input_channel_names: 'ferrariline1'
+# The channel IDs that you'd like to forward messages from. (You can get a channel ID by forwarding any message from it to @userinfobot , and removing the -100 from the start )
+input_channel_ids:
+  - -1001006935927 # Input Channel ID without quotes ''
+  - ID2
 
-
-
-# The output channel name that the messages will be forwarded to.
-# The user running the client must be that channel admin, and have the channel present on it's dialogs.
-output_channel_name: 'icc_cricket'
+# The output channel IDs that the messages will be forwarded to. (You can get a channel ID by forwarding any message from it to @userinfobot , and removing the -100 from the start )
+output_channel_ids: 
+  - -1001515924882 # Output Channel ID without quotes ''
+  - ID2
