@@ -4,10 +4,10 @@ session_name: 'forwardgram' # Session name.
 
 # The channel IDs that you'd like to forward messages from. (You can get a channel ID by forwarding any message from it to @userinfobot , and removing the -100 from the start )
 input_channel_ids:
-  - -1001006935927 # Input Channel ID without quotes ''
+  - 1006935927 # Input Channel ID without quotes ''
   - ID2
 
 # The output channel IDs that the messages will be forwarded to. (You can get a channel ID by forwarding any message from it to @userinfobot , and removing the -100 from the start )
 output_channel_ids: 
-  - -1001515924882 # Output Channel ID without quotes ''
+  - 1515924882 # Output Channel ID without quotes ''
   - ID2
